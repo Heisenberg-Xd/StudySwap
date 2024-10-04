@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - STUDYSWAP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-it-works.html">How it Works</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Products</h1>
+        <div>
+            <h2>Add Product</h2>
+            <form id="add-product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="text" id="product-description" placeholder="Description" required>
+                <input type="number" id="product-price" placeholder="Price" required>
+                <button type="button" class="btn btn-primary" onclick="addProduct()">Add Product</button>
+            </form>
+        </div>
+        <div>
+            <h2>Available Products</h2>
+            <ul id="product-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 STUDYSWAP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

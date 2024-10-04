@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - STUDYSWAP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how-it-works.html">How it Works</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Register</h1>
+        <form id="register-form">
+            <input type="text" id="reg-username" placeholder="Username" required>
+            <input type="password" id="reg-password" placeholder="Password" required>
+            <button type="button" class="btn btn-primary" onclick="register()">Register</button>
+        </form>
+        <p>Already have an account? <a href="signin.html">Sign In here</a></p>
+    </main>
+
+    <footer>
+        <p>© 2023 STUDYSWAP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
